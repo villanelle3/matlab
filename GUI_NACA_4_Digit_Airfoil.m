@@ -1,12 +1,3 @@
-% NACA 4-Digit Airfoil GUI
-% Written by: JoshTheEngineer
-% Started: 03/08/15
-% Updated: 03/08/15
-%          08/14/16 - Rearranged layout
-%                   - Made code a little more efficient
-%          08/22/16 - Added output formatting for Inventor files
-%          09/22/16 - Added output formatting for Gmsh files
-
 function varargout = GUI_NACA_4_Digit_Airfoil(varargin)
 
 % Begin initialization code - DO NOT EDIT
@@ -26,7 +17,6 @@ if nargout
 else
     gui_mainfcn(gui_State, varargin{:});
 end
-% End initialization code - DO NOT EDIT
 
 % --- Executes just before GUI_NACA_4_Digit_Airfoil is made visible.
 function GUI_NACA_4_Digit_Airfoil_OpeningFcn(hObject, eventdata, handles, varargin)
